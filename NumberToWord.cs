@@ -12,7 +12,7 @@ public class NumberToWord
     string words = "";  
     if ((number / 1000000) > 0)   
     {  
-        words += ConvertNumbertoWords(number / 100000) + " LAKES ";  
+        words += ConvertNumbertoWords(number / 100000) + " LAKHS ";  
         number %= 1000000;  
     }  
     if ((number / 1000) > 0)   
