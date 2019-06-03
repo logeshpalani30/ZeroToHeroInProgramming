@@ -13,7 +13,7 @@ namespace PlayingwithCSharp
             Console.ReadLine();
         }
 
-         public static void FullNametoSplitSeparateNames()
+        public static void FullNametoSplitSeparateNames()
         {
             string str = "Logesh Palani";
             ArrayList arrayList = new ArrayList();
