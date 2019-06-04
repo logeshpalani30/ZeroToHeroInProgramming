@@ -4,8 +4,11 @@ namespace PlayingwithCSharp
 {				
 public class NumberToWord
 {
-	
-	public static string ConvertNumbertoWords(long number)   
+        public NumberToWord()
+        {
+        }
+
+        public static string ConvertNumbertoWords(long number)   
 	{  
     if (number == 0) return "ZERO";  
     if (number < 0) return "minus " + ConvertNumbertoWords(Math.Abs(number));  

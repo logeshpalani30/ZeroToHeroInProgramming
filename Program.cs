@@ -7,9 +7,10 @@ namespace PlayingwithCSharp
     {
         static void Main(string[] args)
         {
-            var numberToWord = NumberToWord.ConvertNumbertoWords(3056);
-            Console.WriteLine(numberToWord);
-            FullNametoSplitSeparateNames();
+            OverflowingMemory.Overflow();
+            // var numberToWord = NumberToWord.ConvertNumbertoWords(3056);
+            // Console.WriteLine(numberToWord);
+            // FullNametoSplitSeparateNames();
             Console.ReadLine();
         }
 
