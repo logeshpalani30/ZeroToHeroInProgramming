@@ -10,10 +10,14 @@ namespace PlayingwithCSharp
             Console.WriteLine(number);
             number += 1;
             Console.WriteLine(number);
-            byte bytenumber = 255;
-            Console.WriteLine(bytenumber);
-            bytenumber += 1;
-            Console.WriteLine(bytenumber);
+            checked
+            {
+                byte bytenumber = 255;
+                Console.WriteLine(bytenumber);
+                bytenumber += 1;
+                Console.WriteLine(bytenumber);
+            }
+            
             int intnumber = 2147483647;
             Console.WriteLine(intnumber);
             intnumber += 5;
@@ -30,3 +34,18 @@ namespace PlayingwithCSharp
            
     }
 }
+// Output
+// 127
+// -128
+// 255
+// 0
+// 2147483647
+// -2147483644
+// Before Increment : 32767
+// After Increment : 1
+// 3.402823E+38
+// -3.402823E+38
+// Unhandled Exception: System.OverflowException: Arithmetic operation resulted in an overflow.
+//    at PlayingwithCSharp.OverflowingMemory.Overflow() in C:\Users\logesh\PlayingwithCSharp\OverflowingMemory.cs:line 17
+//    at PlayingwithCSharp.Program.Main(String[] args) in C:\Users\logesh\PlayingwithCSharp\Program.cs:line 12
+
