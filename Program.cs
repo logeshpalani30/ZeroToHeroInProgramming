@@ -108,7 +108,8 @@ namespace PlayingwithCSharp
 
             cross.printMatrix();
 
-
+            // var dcdValue = GreatestCommonDivisor.GCD(45, 35);
+            // Console.WriteLine(dcdValue);
             //CrossWordGeneration.CrossWordGenerationMethod();            
             //Console.WriteLine(NumberToWordConversion(1453521));
             //OverflowingMemory.Overflow();
