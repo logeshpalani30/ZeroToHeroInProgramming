@@ -6,22 +6,4 @@ Simple Logic's in CSharp Stuff
 3. Cross Word Genrerator 
  
  
- ##Output
- 
-*****
-*****
-*****
-*****
-*****
 
-*__**
-*___*
-____*
-____*
-____*
-
-w_*_*
-o_*_*
-r_*_*
-d___*
-____*
