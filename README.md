@@ -6,6 +6,7 @@
 3. Cross Word Genrerator 
 4. Memory Overflowing
 5. Gratest Common Divisor
+6. Two Number Squre Equal to Perfact Squre ( a^2 + b^2 = c^2 )
  
  
 

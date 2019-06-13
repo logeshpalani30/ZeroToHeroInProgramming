@@ -8,9 +8,8 @@ namespace PlayingwithCSharp
         {
             if (x == 0)
                 return y;
-            return GCD(y%x, x);            
+            return GCD(y % x, x);
         }
-
     }
 }
 // Input 
