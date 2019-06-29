@@ -9,8 +9,17 @@ namespace PlayingwithCSharp
     {
         static void Main(string[] args)
         {
-            TwoNumberEqualToPerfact.TwoNumberEqualToPerfactMathod();
+
+            Print1To100MissingNumberInArrayWithoutLoop.MissingNumber();
             
+
+            #region x
+            //CheckStartAndEndOfCharacterContainSymbol.CheckStartAndEndOfCharacterContainSymbolMathod();
+            #endregion
+            #region Perfact Squre
+            //TwoNumberEqualToPerfact.TwoNumberEqualToPerfactMathod();
+            
+            #endregion
             #region CrossWordGenerator  
             // int minValue = 0, maxValue = 4;
             // bool isValid = true;
