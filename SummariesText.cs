@@ -6,27 +6,24 @@ namespace Learn
 {
     public class SummariesText
     {
-        public static void SummariesTextDisplay(string text)
+        public static string SummariesTextDisplay(string text)
         {
             var maxLength = 20;
             if (text.Length < maxLength)
-                Console.WriteLine(text);
-            else
+                return text;
+            
+            var wordsList = new List<string>();
+            var words = text.Split(' ');
+            var wordLength = 0;
+            foreach (var item in words)
             {
-                var wordsList = new List<string>();
-                var words = text.Split(' ');
-                var wordLength = 0;
-                foreach (var item in words)
-                {
-                    wordsList.Add(item);
-                    wordLength += item.Length + 1;
-                    if (wordLength > maxLength)
-                        break;
-                }
-
-                var summary = String.Join(' ', wordsList) + "...";
-                Console.WriteLine(summary);
+                wordsList.Add(item);
+                wordLength += item.Length + 1;
+                if (wordLength > maxLength)
+                    break;
             }
+
+            return String.Join(' ', wordsList) + "...";
         }
     }
 }
