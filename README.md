@@ -8,7 +8,7 @@
 5. Gratest Common Divisor
 6. Two Number Squre Equal to Perfact Squre ( a^2 + b^2 = c^2 )
 7. Check Start And End Of Character Contain Symbol(*)
-8. Find and Print Missing Number in the given Integer array in 1 to 100
+8. Find and Print Missing Number in the given Integer array in 1 to 100 without using nested loop
 9. Summaries Text paragraph to simple first 20 character text.
  
  
