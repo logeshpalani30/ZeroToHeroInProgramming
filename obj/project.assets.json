@@ -688,24 +688,33 @@
     ]
   },
   "packageFolders": {
-    "/Users/hmspl/.nuget/packages/": {}
+    "C:\\Users\\loges\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Volumes/Data/Logesh Repos/Logesh - Git/ZeroToHeroInProgramming/PlayingwithCSharp.csproj",
+      "projectUniqueName": "E:\\Github\\ZeroToHeroInProgramming\\PlayingwithCSharp.csproj",
       "projectName": "PlayingwithCSharp",
-      "projectPath": "/Volumes/Data/Logesh Repos/Logesh - Git/ZeroToHeroInProgramming/PlayingwithCSharp.csproj",
-      "packagesPath": "/Users/hmspl/.nuget/packages/",
-      "outputPath": "/Volumes/Data/Logesh Repos/Logesh - Git/ZeroToHeroInProgramming/obj/",
+      "projectPath": "E:\\Github\\ZeroToHeroInProgramming\\PlayingwithCSharp.csproj",
+      "packagesPath": "C:\\Users\\loges\\.nuget\\packages\\",
+      "outputPath": "E:\\Github\\ZeroToHeroInProgramming\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "/Users/hmspl/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\loges\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.1"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -723,23 +732,16 @@
       "netcoreapp2.1": {
         "dependencies": {
           "Microsoft.NETCore.App": {
-            "suppressParent": "All",
             "target": "Package",
             "version": "[2.1.0, )",
             "autoReferenced": true
           }
         },
         "imports": [
-          "net461",
-          "net462",
-          "net47",
-          "net471",
-          "net472",
-          "net48"
+          "net461"
         ],
         "assetTargetFallback": true,
-        "warn": true,
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
+        "warn": true
       }
     }
   }
