@@ -1,6 +1,6 @@
-# ZeroToHeroInProgramming
+# Zero to Hero Iin Programming
 
-> ## Simple Logic's in CSharp Stuff
+> ## Improving logical thinking
 
 1. Number to Word Conversion
 1. Split string without Function
@@ -12,7 +12,9 @@
 1. Find and Print Missing Number in the given Integer array in 1 to 100 without using nested loop
 1. Summaries Text paragraph to simple first 20 character text.
 
-## CoderByte Problems
+## CoderByte
 
-## LeetCode Problems
+## LeetCode
+
+## Zoho
 
