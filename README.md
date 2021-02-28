@@ -12,9 +12,3 @@
 1. Find and Print Missing Number in the given Integer array in 1 to 100 without using nested loop
 1. Summaries Text paragraph to simple first 20 character text.
 
-## CoderByte
-
-## LeetCode
-
-## Zoho
-
