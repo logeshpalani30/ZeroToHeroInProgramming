@@ -12,7 +12,6 @@ namespace PlayingwithCSharp
 
             for (int i = 0; i < str.Length; i++)
             {
-
                 if (str[i] != ' ' || !Char.IsLetter(str[i]))
                 {
                     var AsciiNumber = Convert.ToInt32(str[i]);
@@ -29,8 +28,6 @@ namespace PlayingwithCSharp
                 { data = data + " "; }
             }
             System.Console.WriteLine(data);
-
-
         }
     }
 }

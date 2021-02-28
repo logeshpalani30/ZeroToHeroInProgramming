@@ -3,3 +3,11 @@
 ################################################################################
 
 /.vs/PlayingwithCSharp/v16/TestStore/0/testlog.manifest
+/.vs/PlayingwithCSharp/v16/TestStore/0/000.testlog
+/obj/project.nuget.cache
+obj/
+bin/
+*.suo
+*.user
+*.sln.docstates
+
