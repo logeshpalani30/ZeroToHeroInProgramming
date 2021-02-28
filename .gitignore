@@ -2,8 +2,7 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/.vs/PlayingwithCSharp/v16/TestStore/0/testlog.manifest
-/.vs/PlayingwithCSharp/v16/TestStore/0/000.testlog
+/.vs
 /obj/project.nuget.cache
 obj/
 bin/
@@ -11,3 +10,8 @@ bin/
 *.user
 *.sln.docstates
 
+.vs/PlayingwithCSharp/v16/.suo
+.vs/PlayingwithCSharp/DesignTimeBuild/.dtbcache.v2
+*.v2
+.vs/PlayingwithCSharp/v16/.suo
+*.v2
