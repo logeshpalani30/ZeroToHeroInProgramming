@@ -1,4 +1,4 @@
-# Zero to Hero Iin Programming
+# Zero to Hero in Programming
 
 > ## Improving logical thinking
 
