@@ -1,7 +1,5 @@
 # Zero to Hero in Programming
 
-> ## Improving logical thinking
-
 1. Number to Word Conversion
 1. Split string without Function
 1. Cross Word Genrerator
