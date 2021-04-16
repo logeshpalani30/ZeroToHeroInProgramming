@@ -25,6 +25,7 @@ namespace PlayingwithCSharp.FileHandling
             }
             catch (Exception e)
             {
+                System.Console.WriteLine(e.Message);
                 return null;
             }
         }

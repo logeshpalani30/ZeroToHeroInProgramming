@@ -5,8 +5,6 @@ VisualStudioVersion = 16.0.29025.244
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlayingwithCSharp", "PlayingwithCSharp.csproj", "{216CCED9-9F36-43EF-8CEC-662A6FBBC9ED}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProgrammingWithCSharp.Test", "ProgrammingWithCSharp.Test\ProgrammingWithCSharp.Test.csproj", "{0579F05E-6BB7-450C-B9D1-1D394BBAF939}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

@@ -15,3 +15,5 @@ bin/
 *.v2
 .vs/PlayingwithCSharp/v16/.suo
 *.v2
+.vs/PlayingwithCSharp/DesignTimeBuild/.dtbcache.v2
+.vs/
