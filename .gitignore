@@ -1,19 +1,17 @@
 ﻿################################################################################
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
-
-/.vs
 /obj/project.nuget.cache
 obj/
 bin/
 *.suo
 *.user
 *.sln.docstates
-
-.vs/PlayingwithCSharp/v16/.suo
-.vs/PlayingwithCSharp/DesignTimeBuild/.dtbcache.v2
 *.v2
 .vs/PlayingwithCSharp/v16/.suo
 *.v2
-.vs/PlayingwithCSharp/DesignTimeBuild/.dtbcache.v2
 .vs/
+/.vs
+*.v2
+.vs/PlayingwithCSharp/DesignTimeBuild/.dtbcache.v2
+.vs/PlayingwithCSharp/v16/.suo
